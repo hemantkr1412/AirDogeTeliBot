@@ -64,7 +64,7 @@ async def buy_command(update: Update, context):
 
 # Function to handle the /website command
 async def website_command(update: Update, context):
-    website_message = "airdoge.xyz"
+    website_message = "https://airdoge.xyz"
     await update.message.reply_text(website_message)
 
 # Function to send price updates every 5 minutes
